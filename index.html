@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations</title>
+    <link rel="stylesheet" href="css-assets/scripts.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Destinations</h1>
+        <p>Explore beautiful destinations around the world</p>
+    </header>
+
+    <main>
+        <section class="destinations-section">
+            <h2>Popular Destinations</h2>
+            
+            <div class="accordion">
+                <button class="accordion-btn">Paris, France</button>
+                <div class="accordion-content">
+                    <div class="destination-info">
+                        <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture.</p>
+                        <p><strong>Famous landmarks:</strong> Eiffel Tower</p>
+                    </div>
+                    <div class="gallery">
+                        <img src="_images/paris.png" alt="Eiffel Tower" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <button class="accordion-btn">Tokyo, Japan</button>
+                <div class="accordion-content">
+                    <div class="destination-info">
+                        <p>Tokyo, Japan's busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+                        <p><strong>Famous landmarks:</strong> Mount Fiji</p>
+                    </div>
+                    <div class="gallery">
+                        <img src="_images/mountFiji.png" alt="Mount Fiji" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <button class="accordion-btn">Bali, Indonesia</button>
+                <div class="accordion-content">
+                    <div class="destination-info">
+                        <p>An Indonesian island province known for its stunning natural beauty, including volcanic mountains, lush rice paddies, and coral reefs.</p>
+                        <p><strong>Famous landmarks:</strong> Uluwatu Temple</p>
+                    </div>
+                    <div class="gallery">
+                        <img src="_images/Uluwatu Temple.png" alt="Uluwatu Temple" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="close-btn">&times;</button>
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="js.assets/scripts.js"></script>
+</body>
+</html>
